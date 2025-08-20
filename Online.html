@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suyool Payment</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Suyool Payment</h1>
+        
+        <form id="paymentForm">
+            <input type="number" id="amount" placeholder="Amount" step="0.01" min="0.01" required>
+            <select id="currency" required>
+                <option value="USD">USD</option>
+                <option value="LBP">LBP</option>
+            </select>
+            <input type="text" id="additionalInfo" placeholder="Description (optional)">
+            <button type="button" onclick="processPayment()">Pay Now</button>
+        </form>
+
+        <div id="paymentContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
