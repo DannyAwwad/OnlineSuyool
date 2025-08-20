@@ -2,7 +2,7 @@
 const CONFIG = {
     merchantAccountID: 50,
     certificate: 'eSW32UuxujH9dzww1w0uNy9WNgmLneV4Da9a6HZNUawDhSQXW2RDaxLGuzKxPxGWSvNcFSBK6LpPN1m5CuejLJqjVLeQibpzacKe',
-    callbackURL: 'https://youtu.be/dQw4w9WgXcQ?si=XYSACvOfw7KL_uB2',
+    callbackURL: 'http://domain.com/suyoolpayment',
     desktopURL: 'https://sandbox.suyool.com/paysuyoolqrtest/',
     mobileURL: 'https://sandbox.suyool.com/paysuyoolmobile/'
 };
